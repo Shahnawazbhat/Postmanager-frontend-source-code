@@ -1,0 +1,49 @@
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.home-description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.home-btn {
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.home-btn.posts {
+  background-color: #2196f3;
+  color: white;
+}
+
+.home-btn.payment {
+  background-color: #4caf50;
+  color: white;
+}
+
+.home-btn:hover {
+  opacity: 0.85;
+}

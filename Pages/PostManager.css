@@ -1,0 +1,97 @@
+
+.post-manager {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post-manager h1 {
+  font-size: 32px;
+  color: #296aa3;
+  margin-bottom: 25px;
+}
+
+.add-post {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.add-post input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.add-post button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-post button:hover {
+  background-color: #45a049;
+}
+
+.post-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.post-card p {
+  margin: 5px 0;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.post-buttons {
+  margin-top: 10px;
+}
+
+.post-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.post-buttons .edit-btn {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.post-buttons .delete-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.post-buttons .save-btn {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.post-buttons .cancel-btn {
+  background-color: #ccc;
+  color: #333;
+}
+
+.post-buttons button:hover {
+  opacity: 0.9;
+}
